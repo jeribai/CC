@@ -111,6 +111,9 @@ body {
 		color: #a91d36;
 		border-left: 1px solid #ffd155;
 	}
+	.top-search-mobile a:hover {
+		color: #6e5208 !important;
+	}
 		.top-search-mobile li:hover {
 			color: #a91d36 !important;
 			background: #ffd155;
@@ -560,12 +563,17 @@ footer {
 		height: 35px;
 		line-height: 35px;
 	}
+	.top-links-mobile a {
+		padding: 0 15px 0 0;
+	}
 	
 	#menu a {
-		width: 145px;
-		font-size: 100%;
+		display: block;
+		width: 120px;
+		padding: 10px 0px 15px 15px;
+		font-size: 90%;
+		border: none !important;
 	}
-
 }
 
 /* For 768px or less (Mini Tablet)
@@ -587,12 +595,60 @@ footer {
 		line-height: 40px;
 	}
 	
-	.icon-phone,
-	.icon-map-marker,
-	.icon-book,
-	.icon-lock {
-		margin-right: 3px !important;
+	.top-links-mobile .icon-menu {
+		display: block;
+		padding: 0 15px;
+		font-size: 160%;
 	}
+	.top-links-mobile a {
+		display: block;
+		padding: 0;
+		font-size: 110%;
+		color: #a91d36;
+		border-right: 1px solid #ffd155;
+	}
+	.top-links-mobile a:hover {
+		color: #6e5208 !important;
+	}
+	.top-links-mobile li {
+		display: inline-block;
+	}
+		.top-links-mobile li:hover {
+			background: #ffd155;
+		}
+		.top-links-mobile li:hover .top-links-box {
+			display: block;
+		}
+		
+		.top-links-box {
+			display: none;
+			position: absolute;
+			height: auto;
+			width: 100%;
+			padding: 15px;
+			background: #ffd155;
+			z-index: 99;
+			overflow: visible;
+		}
+		.top-links-box .top-links li {
+			width: 100%;
+			text-align: left;
+		}
+		.top-links-box .top-links a {
+			padding: 0px;
+		}
+		.icon-phone,
+		.icon-map-marker,
+		.icon-book,
+		.icon-lock {
+			display: block;
+			width: 30px !important;
+			text-align: center;
+		}
+		
+		.top-search {
+		    display: none;
+		}
 	
 	.top-search {
 		display: none;
@@ -600,11 +656,13 @@ footer {
 	.top-search-mobile {
 		display: block;
 	}
+	.top-search-box {
+		width: 100%;
+	}
 	
 	#navbar {
 		padding: 10px 0;
 		background: #83031a;
-		border: none;
 	}
 	#menu a {
 		display: block;
@@ -612,6 +670,9 @@ footer {
 		padding: 10px 0px 15px 15px;
 		font-size: 120%;
 		border: none !important;
+		transition: none;
+		-moz-transition: none;
+		-webkit-transition: none;
 	}
 	#menu li {
 		background: #83031a url('../_assets/img/ui/cc-navbar-bg.png') repeat-x;
@@ -624,21 +685,26 @@ footer {
 		-webkit-transition: none;
 	}
 	#menu li:hover .mega-menu {
-		top: 150px;
+		top: 162px;
 	}
 	#menu li:last-of-type {
 		border-right: 1px solid #690215;
 	}
-	#menu li {
-		display: inline-block;
-		margin-right: -4px;
-		text-align: left;
-		border-left: 1px solid #a91d36;
-		transition: none;
-		-moz-transition: none;
-		-webkit-transition: none;
-	}
 	
+	.mega-menu {
+		padding: 15px 0 !important;
+	}
+		.mega-menu li {
+			padding: 0 !important;
+			background: none !important;
+			border: none !important;
+		}
+		.mega-menu a {
+			width: 100% !important;
+			background: none !important;
+			border: none !important;
+		}
+		
 	#content {
 		margin: 20px auto;
 	}
@@ -649,67 +715,8 @@ footer {
 @media only screen and (max-width: 479px) {
 	
 	/* --- Structure --- */
-	.top-links-mobile {
-		float: left;
-	}
-
-	.top-links-mobile .icon-menu {
-		display: block;
-		padding: 0 15px;
-		font-size: 160%;
-	}
-	.top-links-mobile li {
-		display: inline-block;
-	}
-	.top-links-mobile a {
-		display: block;
-		padding: 0;
-		font-size: 110%;
-		color: #a91d36;
-		border-right: 1px solid #ffd155;
-	}
-		.top-links-mobile li:hover {
-			background: #ffd155;
-			color: #a91d36 !important;
-		}
-		.top-links-mobile li:hover .top-links-box {
-			display: block;
-		}
-	.top-links-box {
-		display: none;
-		position: absolute;
-		top: 40px;
-		left: 0px;
-		height: auto;
-		width: 100%;
-		padding: 15px;
-		background: #ffd155;
-		z-index: 99;
-		overflow: visible;
-	}
-	.top-links-box .top-links li {
-		width: 100%;
-		text-align: left;
-	}
-	.top-links-box .top-links a {
-		padding: 0px;
-	}
-	.icon-phone,
-	.icon-map-marker,
-	.icon-book,
-	.icon-lock {
-		display: block;
-		width: 30px !important;
-		text-align: center;
-	}
-	
-	.top-search {
-	    display: none;
-	}
-	
 	#masthead {
-		padding: 25px 0;
-		border: none;
+		padding: 25px 0 20px;
 	}
 	#masthead .site-title img {
 		width: 100%;
@@ -718,7 +725,6 @@ footer {
 	#navbar {
 		padding: 15px 0;
 		background: #83031a;
-		border: none;
 	}
 	#menu a {
 		display: block;
