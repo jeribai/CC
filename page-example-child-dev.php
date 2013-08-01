@@ -1,17 +1,17 @@
-<!-- ===============================
-
-	CC Page Template #1
-	3 Column Layout
-	Left Sidebar + Content + Right Sidebar
-
-=============================== -->
-
-
 <?php include("inc/header.php") ?>
 
 <div id="content" class="page">
 	
-<div id="breadcrumb" class="page"><a href="http://columbia.jeribai.com"><i class="icon-home"></i>Home</a> &gt; Page</div>
+	<div id="breadcrumb" class="row">
+		<div class="small-12 columns">
+			<ul class="breadcrumbs">
+			  <li><i class="icon-home"></i><a href="#">Home</a></li>
+			  <li><a href="#">Academics</a></li>
+			  <li><a href="#">Programs</a></li>
+			  <li class="current unavailable"><a href="#">Child Development</a></li>
+			</ul>
+		</div>
+	</div>
 
 	<div class="row">
 		<aside class="small-2 columns">
@@ -52,10 +52,15 @@
 		
 		<article class="small-8 column-margin columns">
 			
-			<h2 class="page-title">Child Development Program</h2>
-			
-			<img src="_assets/img/banners-sub-pages/ChildDev-banner.jpg" alt="TRiO Banner Image" class="subpage-banner"/>
-		
+			<div class="row">
+				<div class="small-12 columns">
+					<div class="subpage-banner">
+						<img src="_assets/img/banners-sub-pages/ChildDev-banner.jpg" alt="TRiO Banner Image" class="subpage-banner"/>
+						<h1 class="page-title">Child Development Program</h1>
+					</div>
+				</div>
+			</div>
+					
 			<p>TRiO Student Support Services (SSS) is a  federally funded program designed to provide students a structured and  supportive learning experience that propels the student towards their  chosen academic goal in a timely manner. TRiO SSS is designed to  increase the student&rsquo;s likelihood of success by guiding the student  through intensive, structured activities that help the student stay in  college and complete their educational goals quickly, with the highest  GPA possible.</p>
 			<p>ALL SERVICES ARE FREE to enrolled students.</p>
 			<p>TRiO SSS is for students who are seeking a certificate or AA/AS degree, <strong>and</strong> plan to transfer to a 4-year University.</p>

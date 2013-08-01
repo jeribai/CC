@@ -14,7 +14,7 @@
 	</div>
 	
 	<div class="row">
-		<div class="sidebar small-3 columns">
+		<div class="sidebar small-2 columns">
 		  	<nav class="subnav">
 		  		<ul>
 		  			<li><a href="#">Sub Page Link 1</a></li>

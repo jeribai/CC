@@ -6,9 +6,8 @@
 		<div class="small-12 columns">
 			<ul class="breadcrumbs">
 			  <li><i class="icon-home"></i><a href="#">Home</a></li>
-			  <li><a href="#">Academics</a></li>
-			  <li><a href="#">Programs</a></li>
-			  <li class="current unavailable"><a href="#">TRiO Student Support Services</a></li>
+			  <li><a href="#">Faculty &amp; Staff</a></li>
+			  <li class="current unavailable"><a href="#">Jasmin Sun</a></li>
 			</ul>
 		</div>
 	</div>
