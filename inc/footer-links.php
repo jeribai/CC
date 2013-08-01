@@ -3,8 +3,7 @@
 		<h4>Column 1</h4>
 		<ul class="footer-links">
 			<li><a href="#">Students</a></li>
-			<li><a href="#">Faculty</a></li>
-			<li><a href="#">Staff</a></li>
+			<li><a href="#">Faculty &amp; Staff</a></li>
 			<li><a href="#">Alumni</a></li>
 			<li><a href="#">Parents</a></li>
 			<li><a href="#">Visitors</a></li>
@@ -13,12 +12,11 @@
 	<div class="small-2 columns">
 		<h4>Column 2</h4>
 		<ul class="footer-links">
-			<li><a href="#">Cotact Us</a></li>
-			<li><a href="#">Courses</a></li>
-			<li><a href="#">Departments</a></li>
+			<li><a href="#">Degrees</a></li>
+			<li><a href="#">Programs</a></li>
 			<li><a href="#">Library</a></li>
 			<li><a href="#">Student Housing</a></li>
-			<li><a href="#">YYCD</a></li>
+			<li><a href="#">YCCD</a></li>
 		</ul>	
 	</div>
 	<div class="small-4 columns">

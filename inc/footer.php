@@ -50,7 +50,8 @@
 <!-- Foundation -->
 <script> document.write('<script src=' + ('__proto__' in {} ? '../_js/vendor/zepto' : '../_js/vendor/jquery') + '.js><\/script>')
 </script>
-<script src="../_js/foundation.min.js"></script> 
+<script src="../_js/foundation.min.js"></script>
+<script src="../_js/foundation/foundation.topbar.js"></script>
 <script>$(document).foundation();</script>
 
 </body>

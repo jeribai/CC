@@ -7,7 +7,7 @@
 	}
 	.fullWidth {
 	  max-width: 1920px;
-	  margin: 0 auto 40px;
+	  margin: 0 auto 20px;
 	}
 	.coloredBlock {
 	  padding: 12px;
@@ -20,7 +20,7 @@
 	.infoBlock {
 	  position: absolute;
 	  top: 50px;
-	  right: 50px;
+	  right: 10%;
 	  left: auto;
 	  max-width: 50%;
 	  padding-bottom: 0;
@@ -33,7 +33,7 @@
 	  color: #FFF;
 	  background: #000;
 	  background: rgba(0,0,0,0.75);
-	  left: 50px;
+	  left: 10%;
 	  right: auto;
 	}
 	.infoBlockLeftBlack h4{
@@ -87,7 +87,7 @@
 	@media screen and (min-width: 0px) and (max-width: 750px) {
 	  .royalSlider.heroSlider,
 	  .royalSlider.heroSlider .rsOverflow {
-	    height: 150px !important;
+	    height: 200px !important;
 	  }
 	  .infoBlock {
 	    padding: 10px;

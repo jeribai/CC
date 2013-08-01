@@ -1,142 +1,148 @@
-<!-- ===============================
-
-	CC Page Template #1
-	3 Column Layout
-	Left Sidebar + Content + Right Sidebar
-
-=============================== -->
-
-
 <?php include("../inc/header.php") ?>
 
-<section id="content" class="page">
+<div id="content" class="page">
 	
-<ul class="breadcrumbs">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Features</a></li>
-  <li class="unavailable"><a href="#">Gene Splicing</a></li>
-  <li class="current"><a href="#">Cloning</a></li>
-</ul>
-
+	<div id="breadcrumb" class="row">
+		<div class="small-12 columns">
+			<ul class="breadcrumbs">
+			  <li><i class="icon-home"></i><a href="#">Home</a></li>
+			  <li><a href="#">Academics</a></li>
+			  <li><a href="#">Programs</a></li>
+			  <li class="current unavailable"><a href="#">TRiO Student Support Services</a></li>
+			</ul>
+		</div>
+	</div>
+	
 	<div class="row">
-		<aside class="small-2 columns">
-			<nav class="subnav">
-				<ul>
-					<li><a href="#">Sub Nav Link 1</a></li>
-					<li><a href="#">Sub Nav Link 2</a></li>
-					<li><a href="#">Sub Nav Link 3</a></li>
-					<li><a href="#">Sub Nav Link 4</a></li>
-					<li><a href="#">Sub Nav Link 5</a></li>
-				</ul>
-			</nav>
-			
-			<h4>Quick Facts</h4>
-			<p><strong>Campus Location:</strong><br>
-			  Manzanita 17<br></p>
-			  <p><strong>Contact Information:<br>
-			  </strong>209-588-5145<br>
-			  209-588-5066<br></p>
-			  <p><strong>Summer Hours:</strong><br>
-			  Mon-Thurs 7:30- 5:30<br></p>
-			  <p><strong>Fall/Spring Hours:</strong><br>
-			  Mon-Tues, Thurs-Fri 8:00-4:30<br> Wed 11:00-6:00</p>
-			
-			<h4>Related Links</h4>
-			<ul class="sub-resources">
-				<li><a href="#">Related Links 1</a></li>
-				<li><a href="#">Related Links 2</a></li>
-				<li><a href="#">Related Links 3</a></li>
-			</ul>
-			
-			<h4>Resources</h4>
-			<ul class="sub-resources">
-				<li><a href="#"><i class="icon-file-text"></i>PDF Document 1</a></li>
-				<li><a href="#"><i class="icon-file-text"></i>PDF Document 2</a></li>
-				<li><a href="#"><i class="icon-file-text"></i>PDF Document 3</a></li>
-			</ul>
-		</aside>
-		
-		<article class="small-8 column-margin columns">
-			
-			<h1 class="page-title">Three Column Page Title</h1>
-			
-			<!-- <img src="" alt="" class"page-banner"/> -->
-		
-			<p>TRiO Student Support Services (SSS) is a  federally funded program designed to provide students a structured and  supportive learning experience that propels the student towards their  chosen academic goal in a timely manner. TRiO SSS is designed to  increase the student&rsquo;s likelihood of success by guiding the student  through intensive, structured activities that help the student stay in  college and complete their educational goals quickly, with the highest  GPA possible.</p>
-			<p>ALL SERVICES ARE FREE to enrolled students.</p>
-			<p>TRiO SSS is for students who are seeking a certificate or AA/AS degree, <strong>and</strong> plan to transfer to a 4-year University.</p>
-			
-			<h2>Section Title</h2>
-			<ol>
-			  <li>Peer  Mentoring</li>
-			  <li>Priority Academic Counseling</li>
-			  <li>Advising and workshops  for career planning, scholarship applications, the financial aid  process, navigating transfer to 4-year universities</li>
-			  <li>Field trips to  universities and cultural enrichment</li>
-			  <li><em>Potential</em> grant aid</li>
-			  <li>Priority registration and MUCH MORE!     <br>
-			  </li>
-			</ol>
-			
-			<h3>Sub Section Title</h3>
-			<p>To apply for TRiO SSS services each student must attend an I<strong>nformation Session</strong>. Dates and times can be downloaded here: <a href="http://www.gocolumbia.edu/trio/summer%20info%20sessions%202013.file-text" target="_blank"> <em>Fall 2013</em></a>.  During the Information Session student will learn,  in detail, what the program offers and student responsibilities.   Students will then be interviewed by the Project Director in order to  approve enrollment into the program services.  Once enrolled, students  will participate in activities, counseling, and peer mentoring  designed to guide them carefully through complex higher education  system, leading towards graduation and transfer to a university. </p>
-			<p>Application forms can also be obtained in Manzanita 17 or they can be downloaded here:  <a href="http://www.gocolumbia.edu/trio/TRiO%20Application%202013-14.file-text" target="_blank">TRiO Application 2013-14</a>.  Please turn in completed applications in Manzanita 17 by August 1st to be considered for enrollment for Fall 2013.</p>
-			
-			<h3>Sub Section Title</h3>
-			<p>Eligibility for the TRiO SSS program is based upon meeting at least one of the following criteria:</p>
-			<ul>
-			  <li>First-generation college student, (neither parent completed a Bachelor&rsquo;s degree)</li>
-			  <li>Low-income (verification will be checked according to federal guidelines at intake)</li>
-			  <li>Disabled (verification through DSPS office)</li>
-			</ul>
-			<p>Additional Eligibility Criteria:</p>
-			<ul>
-			  <li>MUST be seeking a certificate or degree (AS or AA), and planning to transfer to a 4-year university.</li>
-			  <li>Have an academic need for assistance (tutoring, study skills, mentoring, etc)</li>
-			  <li>Be motivated to achieve!  </li>
-			</ul>
-		</article>
-		
-		<aside class="small-2 columns">
-			<div class="register-box">
-				<img src="img/cc-register.jpg"/>
-				<h4><i class="icon-edit"></i>Register Now</h4>
-				<p>Enroll In This Course. <em>If you haven't Applied to Columbia College yey, you can do so <a hred="#">here</a>.</em></p>
+		<div class="sidebar small-3 columns">
+		  	<nav class="subnav">
+		  		<ul>
+		  			<li><a href="#">Sub Page Link 1</a></li>
+		  			<li><a href="#">Sub Page Link 2</a></li>
+		  			<li><a href="#">Sub Page Link 3</a></li>
+		  			<li><a href="#">Sub Page Link 4</a></li>
+		  			<li><a href="#">Sub Page Link 5</a></li>
+		  			<li><a href="#">Sub Page Link 6</a></li>
+		  			<li><a href="#">Sub Page Link 7</a></li>
+		  			<li><a href="#">Sub Page Link 8</a></li>
+		  		</ul>
+		  	</nav>
+		  	
+		  	<section>
+			  	<h3>More Nav Links</h3>
+			  	<ul class="sub-resources">
+			  		<li><i class="icon-caret-right"></i><a href="#">Additional Link 1</a></li>
+			  		<li><i class="icon-caret-right"></i><a href="#">Additional Link 2</a></li>
+			  		<li><i class="icon-caret-right"></i><a href="#">Additional Link 3</a></li>
+			  		<li><i class="icon-caret-right"></i><a href="#">Additional Link 4</a></li>
+			  	</ul>
+		  	</section>
+		  	
+		  	<section>
+			  	<h3>Quick Facts</h3>
+			  	<p><strong>Campus Location:</strong><br>
+			  	  Manzanita 17</p>
+			  	  <p><strong>Contact Information:<br>
+			  	  </strong>209-588-5145<br>
+			  	  209-588-5066</p>
+			  	  <p><strong>Summer Hours:</strong><br>
+			  	  Mon-Thurs 7:30- 5:30</p>
+			  	  <p><strong>Fall/Spring Hours:</strong><br>
+			  	  Mon-Tues, Thurs-Fri 8:00-4:30<br> Wed 11:00-6:00</p>
+			</section>
+
+		  	<section>
+			  	<h3>Resources</h3>
+			  	<ul class="sub-resources">
+			  		<li><a href="#"><i class="icon-file-text"></i>TRiO SSS Overview</a></li>
+			  	</ul>
+		  	</section>
+		  	
+		  	<section class="register-box">
+		  		<img src="../_assets/img/cc-register.jpg"/>
+		  		<h4><i class="icon-edit"></i>Register Now</h4>
+		  		<p>Enroll In This Course. <em>If you haven't Applied to Columbia College yey, you can do so <a hred="#">here</a>.</em></p>
+		  	</section>
+		</div><!-- #sidebar -->
+		  
+		<div class="small-9 columns">	
+			<div class="row">
+				<div class="small-12 columns">
+					<div class="subpage-banner">
+						<img src="../_assets/img/banners-sub-pages/SubPage-Banner-Example.jpg" alt="Sub Page Banner"/>
+						<h1 class="page-title">Sub Page Title</h1>
+					</div>
+				</div>
 			</div>
 			
-			<h4>The TRiO Team</h4>
-			<img src="img/faculty/anneka-rogers.jpg" alt="Anneka Rogers Whitmer TRiO Director" class="faculty-thumb"/>
-			<p><strong>Anneka Rogers Whitmer</strong><br>
-			<em>TRiO Program Director</em><br>
-			Office: Manzanita 17B<br>
-			Phone: 209-588-5145<br>
-			Email: <a href="mailto:rogersa@yosemite.edu">rogersa@yosemite.edu</a><br>
-			Web: <a href="#">Visit Anneka's Web Page</a></p>
-			
-			<div class="divider-1px"></div>
-			
-			<img src="img/faculty/courtney-castle.jpg" alt="Courtney Castle TRiO Conselor" class="faculty-thumb"/>
-			<p><strong>Anneka Rogers Whitmer</strong><br>
-			<em>TRiO Counselor</em><br>
-			Office: Manzanita 15<br>
-			Phone: 209-588-5109<br>
-			Email: <a href="mailto:castlec@yosemite.edu">castlec@yosemite.edu</a><br>
-			Web: <a href="#">Visit Courtney's Web Page</a></p>
-			
-			<div class="divider-1px"></div>
-			
-			<img src="img/faculty/ramona-harris.jpg" alt="Ramona Harris Adjunct Counselor" class="faculty-thumb"/>
-			<p><strong>Ramona Harris</strong><br>
-			<em>Adjunct Counselor</em><br>
-			Office: Manzanita 15<br>
-			Phone: 209-588-5109<br>
-			Email: <a href="mailto:harrisra@yosemite.edu">harrisra@yosemite.edu</a><br>
-			Web: <a href="#">Visit Ramona's Web Page</a></p>
-						
-			<h4>Be Social</h4>
-			<p>Connect with us on Facebook!</p>
-		</aside>
+			<article class="row">
+				<div class="small-9 columns column-margin-right">
+		        	<h2>Two Column Layout With Faculty Aside</h2>
+		        	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis est vitae ipsum tempor lacinia. Proin eget magna metus. Nam in eleifend dolor, sed venenatis leo. Ut sit amet gravida nisl. Phasellus ultrices quis leo sit amet dignissim. Praesent iaculis nulla lacus, quis condimentum est porta at. Praesent a nisl eget risus egestas molestie et ut neque. Vivamus venenatis elit ut arcu congue, nec suscipit justo dictum. Maecenas feugiat, mauris sit amet aliquet aliquam, est sapien commodo dui, vel fermentum nisl purus nec tortor. </p>
+		        	<p><strong>ALL SERVICES ARE FREE to enrolled students.</strong></p>
+		        	
+		        	<h2>Large Paragraph Heading Font</h2>
+		        	<p>Duis vulputate mi eros, eget euismod felis porta rutrum. In quis eros fermentum, condimentum erat nec, scelerisque sem. Sed adipiscing nunc ac consectetur convallis. In tempus fermentum tellus, eu porta tortor congue quis. Pellentesque convallis, justo quis dapibus porttitor, nisi turpis lacinia massa, nec suscipit risus magna ut lorem. Mauris consectetur justo sit amet eros fermentum varius. Praesent quis nulla dictum, luctus sapien vitae, gravida justo.</p>
+		        	<ol>
+		        	  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+		        	  <li>Suspendisse volutpat velit vitae malesuada egestas.</li>
+		        	  <li>Integer at neque in urna porttitor imperdiet id nec dui.</li>
+		        	  <li>Donec at nibh suscipit, vehicula dui in, gravida dolor.</li>
+		        	  <li><em>In auctor</em> ipsum id est bibendum, at facilisis pretium.</li>
+		        	</ol>
+		        	
+		        	<h2>Large Paragraph Heading Font</h2>
+		        	<p>Vivamus porttitor lacus sit amet scelerisque faucibus. Proin nulla elit, pellentesque ut imperdiet egestas, vestibulum eu diam. Nunc tristique ante non urna hendrerit, non mollis purus consectetur. Aenean commodo, sem at fermentum molestie, felis purus dignissim odio, non adipiscing orci nisi at libero. Praesent tincidunt volutpat libero, pellentesque pellentesque ligula faucibus ac. Suspendisse nunc eros, mattis ut dapibus eget, placerat nec leo. Vestibulum tortor magna, pellentesque eget lectus nec, faucibus eleifend lacus. Sed et aliquet lorem. Aliquam erat volutpat. Donec in volutpat nulla.</p>
+		        	<p>Ut sit amet gravida nisl. Phasellus ultrices quis leo sit amet dignissim. Praesent iaculis nulla lacus, quis condimentum est porta at. Praesent a nisl eget risus egestas molestie et ut neque. Vivamus venenatis elit ut arcu congue, nec suscipit justo dictum: <a href="http://www.gocolumbia.edu/trio/TRiO%20Application%202013-14.file-text" target="_blank">This is a paragraph link</a>.</p>
+		        	
+		        	<h3>Medium Paragraph Heading Font</h3>
+		        	<p>Praesent tincidunt volutpat libero, pellentesque pellentesque ligula faucibus ac. Suspendisse nunc eros, mattis ut dapibus eget, placerat nec leo:</p>
+		        	<ul>
+		        	  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+		        	  <li>Suspendisse volutpat velit vitae malesuada egestas.</li>
+		        	  <li>Integer at neque in urna porttitor imperdiet id nec dui.</li>
+		        	  <li>Donec at nibh suscipit, vehicula dui in, gravida dolor.</li>
+		        	  <li><em>In auctor</em> ipsum id est bibendum, at facilisis pretium.</li>
+		        	</ul>
+		        	
+		        	<p><strong>Additional Eligibility Criteria:</strong></p>
+		        	<ul>
+		        	  <li>Integer at neque in urna porttitor imperdiet id nec dui.</li>
+		        	  <li>Donec at nibh suscipit, vehicula dui in, gravida dolor.</li>
+		        	  <li><em>In auctor</em> ipsum id est bibendum, at facilisis pretium.</li>
+		        	</ul>
+				</div>
+		      
+				<aside class="small-3 columns">    	
+			      	<section class="light-green pad">
+				      	<h3>The Aside</h3>
+				      	<p>You can add content or faculty info in this column.</p>
+					</section>
+						      	
+				    <section class="faculty">  	
+				      	<img src="../_assets/img/faculty/faculty-photo-example-01.jpg" alt="Professor"/>
+				      	<h4>Jasmin Sun<span class="faculty-title-description">PHD, Professor</span></h4>
+				      	<ul>
+				      		<li><i class="icon-phone-sign"></i> Phone: 209-588-5145</li>
+				      		<li><i class="icon-envelope"></i> Email: <a href="mailto:jasmin.sun@yosemite.edu">Send A Message</a></li>
+				      	</ul>
+					</section>
+			      	
+			      	<section class="faculty">			      	
+				      	<img src="../_assets/img/faculty/faculty-photo-example-02.jpg" alt="Professor"/>
+				      	<h4>Jonathan Stewart<span class="faculty-title-description">Professor</span></h4>
+				      	<ul>
+					      	<li><i class="icon-phone-sign"></i> Phone: 209-588-5155</li>
+					      	<li><i class="icon-envelope"></i> Email: <a href="mailto:jonathan.stewart@yosemite.edu">Send A Message</a></li>
+				      	</ul>
+			      	</section>
+				</aside>
+				
+			</article>
+		</div>
+		
 	</div>
-</section><!-- #content -->
+</div><!-- #content -->
 
 
 <?php include("../inc/footer.php") ?>

@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="../_css/foundation.css" />
 <link rel="stylesheet" href="../_css/font-awesome.css" />
 <script src="../_js/vendor/custom.modernizr.js"></script>
+<script src="../_js/vendor/zepto.js"></script>
 
 <!-- Royal Slider -->
 <link href="../_assets/royalslider/royalslider.css" rel="stylesheet">
@@ -21,8 +22,9 @@
 <script src="../_assets/royalslider/jquery.royalslider.min.js" /></script>
 <style>#page-navigation { display: none; }</style>
 
-<!-- Google Font -->
-<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:300,100' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -35,7 +37,7 @@
 	
 	<div id="masthead">
 		<div class="site-title">
-			<a href="http://columbia.jeribai.com"><img src="_assets/img/columbia-college-logo.png" alt="Columbia College Logo"/></a>
+			<a href="http://columbia.jeribai.com"><img src="../_assets/img/columbia-college-logo.png" alt="Columbia College Logo"/></a>
 		</div>
 	</div><!-- #brand -->
 	

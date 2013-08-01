@@ -9,7 +9,7 @@
 
 <?php include("inc/header.php") ?>
 
-<section id="content" class="page">
+<div id="content" class="page">
 	
 <div id="breadcrumb" class="page"><a href="http://columbia.jeribai.com"><i class="icon-home"></i>Home</a> &gt; Page</div>
 
@@ -115,7 +115,7 @@
 			<p>Connect with us on Facebook!</p>
 		</aside>
 	</div>
-</section>><!-- #content -->
+</div><!-- #content -->
 
 
 <?php include("inc/footer.php") ?>
