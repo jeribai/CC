@@ -64,7 +64,7 @@ body {
 	line-height: 35px;
 	background: #eeb210;
 	border-bottom: 1px solid #ffd155;
-	z-index
+	z-index: 99999;
 }	
 	/* --- Top Links Mobile --- */
 	.top-links-mobile ul {
@@ -158,7 +158,7 @@ body {
 		height: 55px;
 		padding: 15px;
 		background: #ffd155;
-		z-index: 99;
+		z-index: 99999;
 	}		
 
 /* --- Brand --- */
@@ -180,6 +180,7 @@ body {
 	background: #83031a url('../_assets/img/ui/cc-navbar-bg.png') repeat-x;
 	border-top: 1px solid #a91d36;
 	border-bottom: 1px solid #690215;
+	z-index: 99;
 }
 	#menu {  
 	    width: 100%;
@@ -241,7 +242,7 @@ body {
 	transition: opacity .7s;
 	-moz-transition: opacity .7s;
 	-webkit-transition: opacity .7s;
-	z-index: 99;
+	z-index: 9;
 }
 	.mega-menu ul {
 		margin: 0 !important;
@@ -254,6 +255,7 @@ body {
 		list-style: none;
 	}
 	.mega-menu h4 {
+		margin-bottom: 15px;
 		font-size: 100%;
 		font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 		font-weight: bold;
@@ -340,6 +342,23 @@ body {
 		padding: 5px 0 2px 20px;
 		color: #3d2d01 !important;
 		background: #eeb210;
+	}
+
+/* --- Content - Home --- */
+.sub-page-featured {
+	position: relative;
+	margin: 5px 0;
+}
+	.sub-page-featured h4 {
+		width: 100%;
+		margin: 0 0 20px 0;
+		padding: 5px 0 2px 20px;
+		color: #3d2d01 !important;
+		background: #eeb210;
+	}
+	.sub-page-featured img {
+		width: 100%;
+		margin-bottom: 0;
 	}
 
 
@@ -579,25 +598,35 @@ footer {
 		text-decoration: underline;
 	}
 	footer a.icon {
+		float: left;
 		display: inline-block;
-		width: 40px;
-		height: 40px;
-		margin-left: 10px;
-		line-height: 40px;
+		width: 80px;
+		height: 80px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		line-height: 80px;
 		text-align: center;
-		font-size:  120% !important;
-		color: #444 !important;
-		background: #777;
-		border-radius: 20px;
-		-moz-border-radius: 20px;
-		-webkit-border-radius: 20px;
+		font-size: 150% !important;
+		color: #fff !important;
+		background: #a08336;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
 		transition: .5s;
 		-moz-transition: .5s;
 		-webkit-transition: .5s;
 	}
 	footer a.icon:hover {
 		color: #fff !important;
-		background: #999;
+		background: #644d0e;
+		text-decoration: none;
+	}
+	
+	#footer img {
+		width: auto;
+		height: 79px;
+		margin: 0 auto;
+		line-height: 79px;
 	}
 		
 	
@@ -626,12 +655,84 @@ footer {
     color: #333;
     outline: none;
 }
+
+
+/* ===============================
+	CALENDAR
+=============================== */
+#calendar {
+   	
+}
+	#calendar p {
+	   	margin-bottom: 10px;
+	}
+	#calendar .cal-block{
+	   	padding: 20px 0 5px 0;
+	   	border-bottom: 1px solid #f3f3f3;
+	}
+		#calendar .cal-block:last-of-type{
+		   	border-bottom: none;
+		}
+	#calendar .cal-date{
+	   	position: relative;
+	   	float: left;
+	   	width: 20%;
+	   	font-size: 100%;
+	}
+		.cal-date .cal-month{
+		   	position: absolute;
+		   	top: 5px;
+		   	width: 100%;
+		   	color: #fff !important;
+		   	text-align: center;
+		}
+		.cal-date .cal-day{
+		   	position: absolute;
+		   	top: 20px;
+		   	width: 100%;
+		   	color: #595e21 !important;
+		   	text-align: center;
+		   	font-weight: bold;
+		}
+	#calendar .cal-event{
+	   	float: right;
+	   	width: 75%;
+	   	font-size: 90%;
+	}
+	#calendar .cal-event a{
+	   	text-decoration: underline;
+	}
+	
+
+/* ===============================
+	NEWS
+=============================== */
+#news {
+   	
+}
+	#news img {
+	   	float: left;
+	   	width: 200px;
+	   	height: auto;
+	   	margin: 10px 30px 0 0;
+	}
+	
+	#news .news-block{
+	   	padding: 20px 0 5px 0;
+	   	border-bottom: 1px solid #f3f3f3;
+	}
+	
+
+	
 	
 	
 /* ===============================
 	ICONS
 =============================== */
-.icon-file-text {
+.icon-calendar,
+.icon-file-text,
+.icon-file-text-alt
+ {
 	padding-right: 8px;
 }
 .icon-home,
@@ -655,6 +756,10 @@ footer {
 .divider {
 	clear: both;
 	margin-bottom: 30px;
+}
+
+.underline {
+	border-bottom: 2px solid #f1f1f1;
 }
 
 
@@ -694,6 +799,28 @@ footer {
 		width: 155px;
 		font-size: 100%;
 	}
+	
+	#calendar .cal-date{
+	   	position: relative;
+	   	float: left;
+	   	width: 20%;
+	}
+		.cal-date .cal-month{
+		   	position: absolute;
+		   	top: 4px;
+		   	width: 100%;
+		   	color: #fff !important;
+		   	font-size: 85%;
+		   	text-align: center;
+		}
+		.cal-date .cal-day{
+		   	position: absolute;
+		   	top: 10px;
+		   	width: 100%;
+		   	color: #595e21 !important;
+		   	text-align: center;
+		   	font-weight: bold;
+		}
 	
 }
 
@@ -879,7 +1006,6 @@ footer {
 	}
 	
 	#navbar {
-		display: none;
 		padding: 15px 0;
 		background: #83031a;
 	}
@@ -955,6 +1081,31 @@ footer {
 	aside .faculty h4 {
 		font-size: 150%;
 	}
+	
+	
+	#calendar .cal-date{
+	   	position: relative;
+	   	float: left;
+	   	width: 20%;
+	}
+		.cal-date .cal-month{
+		   	position: absolute;
+		   	top: 2px;
+		   	width: 100%;
+		   	color: #fff !important;
+		   	font-size: 80%;
+		   	text-align: center;
+		}
+		.cal-date .cal-day{
+		   	position: absolute;
+		   	top: 12px;
+		   	width: 100%;
+		   	color: #595e21 !important;
+		   	font-size: 150%;
+		   	text-align: center;
+		   	font-weight: bold;
+		}
+		
 	
 	footer .columns {
 		clear: both;

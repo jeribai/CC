@@ -5,14 +5,7 @@
 	
 	<div id="footer-bottom">
 		<div class="page">
-			<div class="small-4 columns right">
-				<a href="#" class="icon"><i class="icon-youtube"></i></a>
-				<a href="#" class="icon"><i class="icon-facebook"></i></a>
-				<a href="#" class="icon"><i class="icon-twitter"></i></a>
-				<a href="#" class="icon"><i class="icon-linkedin"></i></a>
-			</div>
-			<div class="small-8 copyright columns">© 2013 Columbia College - 11600 Columbia College Dr., Sonora CA 95370
-			</div>
+			<div class="small-12 copyright columns">© 2013 Columbia College.</div>
 		</div>
 		<div style="clear: both;"></div>
 	</div><!-- #footer-bottom -->

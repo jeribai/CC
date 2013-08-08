@@ -8,50 +8,61 @@
 			  <li><i class="icon-home"></i><a href="#">Home</a></li>
 			  <li><a href="#">Academics</a></li>
 			  <li><a href="#">Programs</a></li>
-			  <li class="current unavailable"><a href="#">Child Development</a></li>
+			  <li class="current unavailable"><a href="#">TRiO Student Support Services</a></li>
 			</ul>
 		</div>
 	</div>
-
+	
 	<div class="row">
-		<aside class="small-2 columns">
-			<nav class="subnav">
-				<ul>
-					<li><a href="#">Career Goals & Pathways</a></li>
-					<li><a href="#">Courses</a></li>
-					<li><a href="#">Child & Family Care</a></li>
-					<li><a href="#">Career Opportunities</a></li>
-					<li><a href="#">Textbook Help</a></li>
-					<li><a href="#">Transfer Readiness Help</a></li>
-				</ul>
-			</nav>
-			
-			<h4>Resources</h4>
-			<ul class="sub-resources">
-				<li><a href="#">California Association for the Education of Young Children</a></li>
-				<li><a href="#">Child Development Training Consortium</a></li>
-				<li><a href="#">California Early Childhood Mentor Program</a></li>
-				<li><a href="#">Program for Infant Toddler Caregivers</a></li>
-			</ul>
-			
-			<h4>Quick Facts</h4>
-			<p><strong>Campus Location:</strong><br>
-			  Laurel 115<br></p>
-			  <p><strong>Contact Information:<br>
-			  </strong>209-588-5145<br>
-			  209-588-5066<br></p>
-			  <p><strong>Summer Hours:</strong><br>
-			  Mon-Thurs 7:30- 5:30<br></p>
-			  <p><strong>Fall/Spring Hours:</strong><br>
-			  Mon-Tues, Thurs-Fri 8:00-4:30</p>
-			
-			<h4>Testimonial</h4>
-			<p>"We are always delighted when we can hire graduates from the Columbia College Child Development Program.  We have found that when we hire teachers who are graduates from this program we get well-rounded teachers who can work well with other staff, parents and children. They are compassionate, caring and professional."</p>
-			<p><strong>Marcia Williams, ATCAA Early Childhood Services Director</strong></p>
-		</aside>
-		
-		<article class="small-8 column-margin columns">
-			
+		<div id="sidebar" class="small-3 columns">
+		  	<nav class="subnav">
+		  		<ul>
+		  			<li><a href="#">Career Goals &amp; Pathways</a></li>
+		  			<li><a href="#">Courses</a></li>
+		  			<li><a href="#">Child &amp; Family Care</a></li>
+		  			<li><a href="#">Career Opportunities</a></li>
+		  			<li><a href="#">Textbook Help</a></li>
+		  			<li><a href="#">Transfer Readiness Help</a></li>
+		  		</ul>
+		  	</nav>
+		  	
+		  	<section>
+			  	<h4>Resources</h4>
+			  	<ul class="sub-resources">
+			  		<li><a href="#">California Association for the Education of Young Children</a></li>
+			  		<li><a href="#">Child Development Training Consortium</a></li>
+			  		<li><a href="#">California Early Childhood Mentor Program</a></li>
+			  		<li><a href="#">Program for Infant Toddler Caregivers</a></li>
+			  	</ul>
+		  	</section>
+		  	
+		  	<section class="light-brown">
+			  	<h4>Quick Facts</h4>
+			  	<p><strong>Campus Location:</strong><br>
+			  	  Laurel 115<br></p>
+			  	  <p><strong>Contact Information:<br>
+			  	  </strong>209-588-5145<br>
+			  	  209-588-5066<br></p>
+			  	  <p><strong>Summer Hours:</strong><br>
+			  	  Mon-Thurs 7:30- 5:30<br></p>
+			  	  <p><strong>Fall/Spring Hours:</strong><br>
+			  	  Mon-Tues, Thurs-Fri 8:00-4:30</p>
+		  	</section>
+		  	
+		  	<section>
+			  	<h4>Testimonial</h4>
+			  	<p>"We are always delighted when we can hire graduates from the Columbia College Child Development Program.  We have found that when we hire teachers who are graduates from this program we get well-rounded teachers who can work well with other staff, parents and children. They are compassionate, caring and professional."</p>
+			  	<p><strong>Marcia Williams, ATCAA Early Childhood Services Director</strong></p>
+		  	</section>
+		  	
+		  	<section class="register-box">
+		  		<img src="_assets/img/cc-register.jpg"/>
+		  		<h4><i class="icon-edit"></i>Register Now</h4>
+		  		<p>Enroll In This Course. <em>If you haven't Applied to Columbia College yey, you can do so <a hred="#">here</a>.</em></p>
+		  	</section>
+		</div><!-- #sidebar -->
+		  
+		<div class="small-9 columns">	
 			<div class="row">
 				<div class="small-12 columns">
 					<div class="subpage-banner">
@@ -60,65 +71,50 @@
 					</div>
 				</div>
 			</div>
-					
-			<p>TRiO Student Support Services (SSS) is a  federally funded program designed to provide students a structured and  supportive learning experience that propels the student towards their  chosen academic goal in a timely manner. TRiO SSS is designed to  increase the student&rsquo;s likelihood of success by guiding the student  through intensive, structured activities that help the student stay in  college and complete their educational goals quickly, with the highest  GPA possible.</p>
-			<p>ALL SERVICES ARE FREE to enrolled students.</p>
-			<p>TRiO SSS is for students who are seeking a certificate or AA/AS degree, <strong>and</strong> plan to transfer to a 4-year University.</p>
-			
-			<h4>Benefits offered in the TRiO SSS Program</h4>
-			<ol>
-			  <li>Peer  Mentoring</li>
-			  <li>Priority Academic Counseling</li>
-			  <li>Advising and workshops  for career planning, scholarship applications, the financial aid  process, navigating transfer to 4-year universities</li>
-			  <li>Field trips to  universities and cultural enrichment</li>
-			  <li><em>Potential</em> grant aid</li>
-			  <li>Priority registration and MUCH MORE!     <br>
-			  </li>
-			</ol>
-			
-			<h4>How To Apply</h4>
-			<p>To apply for TRiO SSS services each student must attend an I<strong>nformation Session</strong>. Dates and times can be downloaded here: <a href="http://www.gocolumbia.edu/trio/summer%20info%20sessions%202013.file-text" target="_blank"> <em>Fall 2013</em></a>.  During the Information Session student will learn,  in detail, what the program offers and student responsibilities.   Students will then be interviewed by the Project Director in order to  approve enrollment into the program services.  Once enrolled, students  will participate in activities, counseling, and peer mentoring  designed to guide them carefully through complex higher education  system, leading towards graduation and transfer to a university. </p>
-			<p>Application forms can also be obtained in Manzanita 17 or they can be downloaded here:  <a href="http://www.gocolumbia.edu/trio/TRiO%20Application%202013-14.file-text" target="_blank">TRiO Application 2013-14</a>.  Please turn in completed applications in Manzanita 17 by August 1st to be considered for enrollment for Fall 2013.</p>
-			
-			<h4>Is TRiO For You?</h4>
-			<p>Eligibility for the TRiO SSS program is based upon meeting at least one of the following criteria:</p>
-			<ul>
-			  <li>First-generation college student, (neither parent completed a Bachelor&rsquo;s degree)</li>
-			  <li>Low-income (verification will be checked according to federal guidelines at intake)</li>
-			  <li>Disabled (verification through DSPS office)</li>
-			</ul>
-			<p>Additional Eligibility Criteria:</p>
-			<ul>
-			  <li>MUST be seeking a certificate or degree (AS or AA), and planning to transfer to a 4-year university.</li>
-			  <li>Have an academic need for assistance (tutoring, study skills, mentoring, etc)</li>
-			  <li>Be motivated to achieve!  </li>
-			</ul>
-		</article>
-		
-		<aside class="small-2 columns">
-			<h4>The TRiO Team</h4>
-			<img src="_assets/img/faculty/adrienne-seegars.jpg" alt="Adrienne Seegars Whitmer Professor" class="faculty-thumb"/>
-			<p><strong>Adrienne Seegars</strong><br>
-			<em>Child Development Professor</em><br>
-			Office: Laurel 114<br>
-			Phone: 209-588-5275<br>
-			Email: <a href="mailto:seggarsa@yosemite.edu">seegarsa@yosemite.edu</a><br>
-			
-			<div class="divider-1px"></div>
-			
-			<img src="_assets/img/faculty/kathy-sullivan.jpg" alt="Kathy Sullivan Professor" class="faculty-thumb"/>
-			<p><strong>Kathy Sullivan</strong><br>
-			<em>Child Development Professor</em><br>
-			Office: Laurel 115<br>
-			Phone: 209-588-5377<br>
-			Email: <a href="mailto:sullivank@yosemite.edu">sullivank@yosemite.edu</a><br>
-			
-			<div class="divider-1px"></div>
-			
 						
-			<h4>Be Social</h4>
-			<p>Connect with us on Facebook!</p>
-		</aside>
+			<article class="row">
+				<div class="small-9 columns column-margin-right">
+		        	<p>Our faculty is committed to the highest standards of teaching and learning for all students. We are proud to offer exceptional experiences through our small class size, state of the art facility, and enthusiasm for our work. We invite you to explore the program and look forward to meeting you.</p>
+		        	
+		        	<h2>Career Goals</h2>
+		        	<p>For information on career goals and how they relate to Columbia College courses <a href="#"> click here.</a></p>
+		        	<p>For information on career pathways for Child Development <a href="#"> click here.</a></p>
+		        	
+		        	<h2>AS in Child Development</h2>
+		        	<p>This degree prepares students for teacher level work in early childhood settings. This is recommended for students with the goal of becoming a teacher, master teacher, or site supervisor in any type of early childhood facility.</p>
+		        	
+		        	<h2>Associate Child Development Teacher</h2>
+		        	<p>This certificate prepares students for entry level work in the field of early childhood education. It includes the core courses for a California Child Development Permit as well as the courses required by California Community Care Licensing for teachers in licensed programs.</p>
+		        
+		        	<h3>Child Development Permits</h3>
+		        	<p>Along with a degree or certificate from Columbia College a California Child Development Permit gives graduates a competitive edge when applying for jobs. The Permit is issued by the CA Teacher Credentialing Office (not the College). The county schools offices in both Tuolumne and Calaveras counties provide applications and technical assistance in documenting that you meet the requirements.</p>
+		        	<p>To see how Columbia College courses fulfill the requirements of the Child Development Permit click here.</p>
+		        	<p>To access information about the California Child Development Permit as well as stipends that may be available to help you cover the cost of applying click here.</p>
+				</div>
+		      
+				<aside class="small-3 columns">    	
+			      	<section>
+				      	<h3 class="med-brown">Instrutors</h3>
+				      	<img src="_assets/img/faculty/kathy-sullivan.jpg" alt="" class="th"/>
+				      	<p><strong>Kathy s Sullivan</strong><br>
+				      	<em>Child Development Professor</em><br>
+				      	Phone: 209-588-5145<br>
+				      	<a href="mailto:rogersa@yosemite.edu">Email Anneka</a><br>
+				      	<a href="#">Visit Anneka's Web Page</a></p>
+			      				      	
+				      	<img src="_assets/img/faculty/adrienne-seegars.jpg" alt="" class="th"/>
+				      	<p><strong>Adrienne Seegars</strong><br>
+				      	<em>Child Development Professor</em><br>
+				      	Phone: 209-588-5109<br>
+				      	<a href="mailto:castlec@yosemite.edu">Email Courtney</a><br>
+				      	<a href="#">Visit Courtney's Web Page</a></p>
+			   
+			      	</section>
+				</aside>
+				
+			</article>
+		</div>
+		
 	</div>
 </div><!-- #content -->
 

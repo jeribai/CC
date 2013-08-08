@@ -23,7 +23,6 @@
 <style>#page-navigation { display: none; }</style>
 
 <!-- Google Fonts -->
-<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Roboto:300,100' rel='stylesheet' type='text/css'>
 
 </head>

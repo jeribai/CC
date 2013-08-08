@@ -30,25 +30,24 @@
     	</div><!-- mega-menu -->
     </li>
     
-    <li><a href="#">Academics<span class="menu-description">Degrees & Programs</span></a>
+    <li><a href="#">Academics<span class="menu-description">Degrees &amp; Programs</span></a>
     	<div class="mega-menu">
     		
     		<div class="page">
     		<div class="row">
     			<div class="small-2 columns">
-    				<h4>Example Pages</h4>
+    				<h4>Degrees</h4>
     				<ul class="">
     					<li><a href="page-example-trio.php">TRiO</a></li>
     					<li><a href="page-example-child-dev.php">Child Dev</a></li>
     				</ul>
     			</div>
     			<div class="small-3 columns">
-    				<h4>Page Templates</h4>
-    				<ul class="">
-    					<li><a href="templates/page-template-1.php">Page Template 1</a></li>
-    					<li><a href="templates/page-template-2.php">Page Template 2</a></li>
-    					<li><a href="templates/page-template-3.php">Page Template 3</a></li>
-    					<li><a href="templates/page-template-4.php">Page Template 4</a></li>
+    				<h4>Programs</h4>
+    				<ul>
+    					<li><a href="http://columbia.jeribai.com/page-example-trio.php">TRiO</a></li>
+    					<li><a href="http://columbia.jeribai.com/page-example-child-dev.php">Child Dev</a></li>
+    					<li><a href="http://columbia.jeribai.com/page-example-faculty.php">Faculty</a></li>
     				</ul>
     			</div>
     			<div class="small-3 columns">

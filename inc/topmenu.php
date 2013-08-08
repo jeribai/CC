@@ -16,9 +16,8 @@
 				<div class="top-links-box">
 					<div class="small-6 columns">
 						<ul class="top-links">
-							<li><a href="#">Students</a></li>
-							<li><a href="#">Faculty &amp; Staff</a></li>
-							<li><a href="#">Parents</a></li>
+							<li><a href="http://columbia.jeribai.com/page-example-students.php">Students</a></li>
+							<li><a href="http://columbia.jeribai.com/page-example-faculty.php">Faculty &amp; Staff</a></li>
 							<li><a href="#">Alumni</a></li>
 							<li><a href="#">Visitors</a></li>
 						</ul>
@@ -31,10 +30,10 @@
 							</form>
 						</div>
 						<ul class="top-links right">
+							<li><a href="#"><i class="icon-key"></i> My Columbia</a></li>
+							<li><a href="#"><i class="icon-book"></i> Library</a></li>
 							<li><a href="#"><i class="icon-phone"></i> Contact</a></li>
 							<li><a href="#"><i class="icon-map-marker"></i> Map</a></li>
-							<li><a href="#"><i class="icon-book"></i> Library</a></li>
-							<li><a href="#"><i class="icon-lock"></i> Login</a></li>
 						</ul>
 					</div>
 					
