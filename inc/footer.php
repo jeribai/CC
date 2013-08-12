@@ -47,5 +47,7 @@
 <script src="../_js/foundation/foundation.topbar.js"></script>
 <script>$(document).foundation();</script>
 
+<!-- Mobile Nav -->
+<script src="../_js/mobile-nav.js"></script>
 </body>
 </html>

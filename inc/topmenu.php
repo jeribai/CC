@@ -1,18 +1,18 @@
 <div class="page">
 	<ul class="top-search-mobile">
-			<li><a href="#"><i class="icon-search"></i></a>
-				<div class="top-search-box">
-					<form action='/search' id='search-form' method='get' target='_top'>
-						<input id='search-text' name='q' placeholder='Search' type='text'/>
-					</form>
-				</div>
-			</li>
-		</ul>
+		<li><a href="#"><i class="icon-search"></i></a>
+			<div class="top-search-box">
+				<form action='/search' id='search-form' method='get' target='_top'>
+					<input id='search-text' name='q' placeholder='Search' type='text'/>
+				</form>
+			</div>
+		</li>
+	</ul>
 		
-		<div class="top-links-mobile">
-			<ul>
+	<div class="top-links-mobile">
+		<ul>
 			<li><a href="#" class="icon-menu"><i class="icon-reorder"></i></a>
-					
+				
 				<div class="top-links-box">
 					<div class="small-6 columns">
 						<ul class="top-links">
@@ -22,7 +22,7 @@
 							<li><a href="#">Visitors</a></li>
 						</ul>
 					</div>
-					
+				
 					<div class="small-6 columns">
 						<div class="top-search">
 							<form action='/search' id='search-form' method='get' target='_top'>
@@ -36,10 +36,10 @@
 							<li><a href="#"><i class="icon-map-marker"></i> Map</a></li>
 						</ul>
 					</div>
-					
+				
 					<div style="clear: both;"></div>
 				</div><!-- top-links-box -->
-			
+				
 			</li>
 		</ul>		
 	</div><!-- top-links-mobile -->

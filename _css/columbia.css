@@ -47,15 +47,6 @@ body {
 
 /* Header
 ------------------------------- */
-/*
-#top {
-	position: relative;
-	background: #eeb210;
-	border-bottom: 1px solid #ffd155;
-	z-index: 999;
-}
-*/
-
 #top {
 	position: relative;
 	height: 35px;
@@ -91,7 +82,7 @@ body {
 		display: block;
 		margin-right: -4px;
 		padding: 0 10px;
-		font-size: 100%;
+		font-size: 110%;
 		color: #a91d36;
 		line-height: 35px;
 		transition: .5s;
@@ -288,10 +279,6 @@ body {
 		padding-left: 20px;
 		font-size: 90% !important;
 		color: #555 !important;
-		border-left: 1px solid #ccc;
-	}
-	.mega-menu .columns:first-of-type {
-		border-left: none;
 	}
 
 
